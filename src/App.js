@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
+
+/*
+Bonjour M;
+Suite à un empêchement j’étais incapable de faire la préinscription durant le bon delai, pour cela monsieur, j’ai pris l’autorisation de solliciter votre haute bienveillance de re-ouvrir une session pour que je puisse faire la préinscription.
+En attendant une réponse favorable de votre part, veuillez accepter monsieur mes salutations les plus respectueuses.
+
+*/
+
   render() {
     return (
       <div className="App">
