@@ -34,7 +34,7 @@ deleteLetterHandler = (index) =>{
     console.log(newTextInput);
 
     this.setState({
-        textInput : newTextInput
+        textInput : ''
     })
 }
 
