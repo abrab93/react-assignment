@@ -31,10 +31,9 @@ deleteLetterHandler = (index) =>{
     letters.splice(index,1);
 
     const newTextInput = letters.join('')
-    console.log(newTextInput);
 
     this.setState({
-        textInput : ''
+        textInput : newTextInput
     })
 }
 
@@ -55,7 +54,7 @@ deleteLetterHandler = (index) =>{
     return (
       <div className="App">
 
-        <input onChange={this.changeInputTextHandler} ></input>
+        <input onChange={this.changeInputTextHandler} value={this.state.textInput}></input>
         <p>Text length : {this.state.textLength}</p>
         <ValidationComponent textLegth={this.state.textLength}/>
         {letters}
